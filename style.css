@@ -1,0 +1,108 @@
+#header {
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+}
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    line-height: 24px;
+}
+#header-top-link {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    gap: 10px;
+}
+#header-top-login {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+#header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+}
+#header-bottom-left {
+    display: flex;
+    gap: 10px;
+}
+#header-bottom-right {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#homepage {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+    gap: 10px;
+}
+#homepage-title {
+    display: flex;
+    font-size: 3rem;
+}
+#homepage-search {
+    display: flex;
+}
+#homepage-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+#discover {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+}
+#discover-title {
+    font-size: 2rem;
+}
+#discover-section {
+    display: flex;
+    overflow: scroll;
+}
+
+
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+}
+#footer-top {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+#footer-link-top {
+    display: flex;
+    gap: 10px;
+}
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#footer-bottom-link {
+    display: flex;
+    gap: 10px;
+}
+#footer-bottom-social {
+    display: flex;
+    gap: 10px;
+}
