@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trade Me</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.cdnfonts.com/css/helvetica-255?styles=15805,15804,30118,30119,15802,15803,29377" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
         <div id="header-top">
             <div id="header-top-link">
-                <p id="header-link-top">Trade Me</p>
-                <p id="header-link-top">Trade Me Insurance</p>
+                <p id="header-link-top">Not Trade Me</p>
+                <p id="header-link-top">Not Trade Me Insurance</p>
                 <p id="header-link-top">Holiday Houses</p>
                 <p id="header-link-top">FindSomeone</p>
                 <p id="header-link-top">MotorWeb</p>
@@ -26,44 +28,30 @@
     </div>
     <div id="header-bottom">
         <div id="header-bottom-left">
-            <p>Trade Me</p>
+            <p>Not Trade Me</p>
             <p>Browse</p>
         </div>
         <div id="header-bottom-right">
             <p>Watchlist</p>
             <p>Favourites</p>
             <p>Start a listing</p>
-            <p>My Trade Me</p>
+            <p>My Not Trade Me</p>
         </div>
     </div>
     <div id="homepage">
         <div id="homepage-title">
-            <p style="margin: 0px">Kia ora! Ready to find your new?</p>
+            <p style="margin: 0px">KIA ORA! READY TO FIND YOUR NEW?</p>
         </div>
         <div id="homepage-search">
-            <div id="homepage-search-input">
-                <input id="search" type="search" placeholder="Search all of Trade Me">
-            </div>
-            <div id="homepage-search-button">
-                <button type="button">Search</button>
-            </div>
+            <input id="homepage-search-input" type="search" placeholder="Search all of Trade Me">
+            <button id="homepage-search-button" type="button">Search</button>
         </div>
         <div id="homepage-links">
-            <div id="homepage-links-marketplace">
-                <button type="button">Marketplace</button>
-            </div>
-            <div id="homepage-links-jobs">
-                <button type="button">Jobs</button>
-            </div>
-            <div id="homepage-links-motors">
-                <button type="button">Motors</button>
-            </div>
-            <div id="homepage-links-property">
-                <button type="button">Property</button>
-            </div>
-            <div id="homepage-links-services">
-                <button type="button">Services</button>
-            </div>
+                <button type="button" id="homepage-links-button" style="background-color: #e34647">Marketplace</button>
+                <button type="button" id="homepage-links-button" style="background-color: #fc723e">Jobs</button>
+                <button type="button" id="homepage-links-button" style="background-color: #6d7e98">Motors</button>
+                <button type="button" id="homepage-links-button" style="background-color: #3cb766">Property</button>
+                <button type="button" id="homepage-links-button" style="background-color: #666">Services</button>
         </div>
     </div>
     <div id="discover">
@@ -102,18 +90,20 @@
             </div>
         </div>
     </div>
+    <div id="footer-line"></div>
     <div id="footer">
         <div id="footer-top">
-            <p id="footer-link-top">trademe</p>
-            <p id="footer-link-top">List an item</p>
-            <p id="footer-link-top">Watchlist</p>
-            <p id="footer-link-top">Favourites</p>
-            <p id="footer-link-top">My Trade Me</p>
+            <a id="footer-link-top">trademe</a>
+            <a id="footer-link-top">List an item</a>
+            <a id="footer-link-top">Watchlist</a>
+            <a id="footer-link-top">Favourites</a>
+            <a id="footer-link-top">My Trade Me</a>
             <div id="footer-link-top">
-                <p>Register</p>
-                <p>Log in</p>
+                <a>Register</a>
+                <a>Log in</a>
             </div>
         </div>
+        <hr width="100%" color="#cccccccc" noshade>
         <div id="footer-bottom">
             <p id="footer-bottom-copyright">© 2024 Not Trade Me Limited</p>
             <div id="footer-bottom-link">
