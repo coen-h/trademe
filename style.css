@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    color: gray;
 }
 
 
@@ -56,7 +57,7 @@ body {
 
 #homepage {
     display: flex;
-    background-color: rgb(255, 176, 156);
+    background: linear-gradient(to right,#4854d3,78%,#6091f7);
     align-items: flex-start;
     flex-direction: column;
     padding: 2% 8.71% 0% 8.71%;
@@ -64,7 +65,7 @@ body {
 }
 #homepage-title {
     display: flex;
-    color: rgb(58, 26, 26);
+    color: #f2afdc;
     font-weight: 1000;
     font-size: 2.75rem;
 }
@@ -110,6 +111,9 @@ body {
     font-weight: bold;
     color: white;
 }
+#homepage-links-button:hover {
+    opacity: 0.8;
+}
 
 
 
@@ -119,11 +123,15 @@ body {
     padding: 2% 8.71% 2% 8.71%;
 }
 #discover-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    color: black;
 }
 #discover-section {
     display: flex;
     overflow: scroll;
+}
+#discover-image {
+    width: 300px;
 }
 
 
@@ -132,18 +140,16 @@ body {
     height: 8px;
     background-color: rgb(226, 166, 0);
 }
-#footer {
-    display: flex;
-    flex-direction: column;
-    padding-right: 8.71%;
-    padding-left: 8.71%;
-}
 #footer-top {
     display: flex;
     gap: 10px;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px 20px 0px;
+    height: 50px;
+    font-size: 0.9rem;
+    padding-right: 13.71%;
+    padding-left: 8.71%;
 }
 #footer-link-top {
     display: flex;
@@ -152,7 +158,13 @@ body {
 #footer-bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
+    font-size: 0.75rem;
+    background-color: rgb(235, 235, 235);
+    padding-right: 8.71%;
+    padding-left: 8.71%;
+    height: 80px;
 }
 #footer-bottom-link {
     display: flex;
