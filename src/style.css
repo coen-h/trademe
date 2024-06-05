@@ -102,7 +102,7 @@ body {
     background-color: white;
     padding: 8px;
     border-radius: 8px;
-    top: 32px;
+    top: 16px;
 }
 #homepage-links-button {
     width: 20%;
@@ -129,9 +129,7 @@ body {
 #discover-section {
     display: flex;
     overflow: scroll;
-}
-#discover-image {
-    width: 300px;
+    gap: 10px;
 }
 
 
