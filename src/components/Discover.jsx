@@ -1,49 +1,18 @@
 import React from 'react'
 
-export default function Discover() {
+export default function Discover(props) {
     return (
     <div id="discover">
         <div id="discover-title">
-            <p>Under $1</p>
+            <p>{props.name}</p>
         </div>
         <div id="discover-section">
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
+                {Array.from({ length: 12 }).map((_, index) => (
+                    <div id="discover-card" key={index}>
+                        <img src="https://picsum.photos/300/300" id="discover-image" alt="Discover" />
+                    </div>
+                ))}
             </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-            <div id="discover-card">
-                <img src="https://picsum.photos/300/300" id="discover-image"></img>
-            </div>
-        </div>
     </div>
     )
 }
