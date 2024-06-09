@@ -16,7 +16,6 @@ export default function App() {
       <Promotion />
       <Discover name="$1 Listings"/>
       <Categories />
-      <Discover name="New Auctions"/>
       <Discover name="New Listings"/>
       <Footer />
     </>
