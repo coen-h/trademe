@@ -27,13 +27,14 @@ p {
     display: flex;
     flex-direction: row;
     margin-left: 10%;
-    gap: 10px;
+    gap: 55px;
     font-size: 0.75rem;
 }
 #header-top-login {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 0.75rem;
 }
 #header-link-login, #header-link-top {
     margin: 0;

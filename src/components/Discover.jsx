@@ -24,7 +24,6 @@ export default function Discover(props) {
                         <div id="discover-image-section">
                             <img src="https://picsum.photos/280/280" id="discover-image" alt="Discover" />
                         </div>
-                        {/* https://developer.trademe.co.nz/api-reference/listing-methods */}
                         <div id="discover-container">
                             <div id="discover-top">
                                 <div id="discover-top-bar">
